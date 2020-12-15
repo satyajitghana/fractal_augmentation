@@ -2,20 +2,22 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"LitModel": "01_model.dummy.ipynb",
-         "BasicBlock": "01a_model.resnet18.ipynb",
-         "Bottleneck": "01a_model.resnet18.ipynb",
-         "ResNet": "01a_model.resnet18.ipynb",
-         "RESNET18": "01a_model.resnet18.ipynb",
+index = {"CIFAR10": "01_data.cifar.ipynb",
+         "CIFAR10DataModule": "01_data.cifar.ipynb",
+         "CIFAR10Mandelbrot": "01_data.cifar.ipynb",
+         "CIFAR10MandelbrotDataModule": "01_data.cifar.ipynb",
          "MandelBrotFractalTransform": "02_transforms.fractal.ipynb",
          "JuliaFractalTransform": "02_transforms.fractal.ipynb",
-         "CIFAR10": "0a_data.cifar.ipynb",
-         "CIFAR10DataModule": "0a_data.cifar.ipynb"}
+         "LitModel": "03_model.dummy.ipynb",
+         "BasicBlock": "03a_model.resnet18.ipynb",
+         "Bottleneck": "03a_model.resnet18.ipynb",
+         "ResNet": "03a_model.resnet18.ipynb",
+         "RESNET18": "03a_model.resnet18.ipynb"}
 
-modules = ["model/dummy.py",
-           "model/resnet18.py",
+modules = ["data/cifar.py",
            "transforms/fractal.py",
-           "data/cifar.py"]
+           "model/dummy.py",
+           "model/resnet18.py"]
 
 doc_url = "https://satyajitghana.github.io/fractal_augmentation/"
 
